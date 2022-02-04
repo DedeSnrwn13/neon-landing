@@ -42,10 +42,6 @@
   margin-top: -1px;
 }
 
-.header .left {
-  /* margin-top: 30px; */
-}
-
 .header .img-header {
   top: -227px;
   width: 425px;
@@ -57,6 +53,12 @@
   color: #ffffff;
   letter-spacing: 0.025em;
   margin-top: 28px;
+}
+
+.header .header-title span {
+  background: url("/icon/line.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .header .text-top {
