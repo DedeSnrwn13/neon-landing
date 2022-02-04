@@ -13,6 +13,7 @@
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   transition: 0.1s;
+  font-size: 16px;
 }
 
 .navbar-light .bg-green,
@@ -30,6 +31,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
+  margin-left: 80px;
 }
 
 /*  */
@@ -352,6 +354,7 @@ footer .left .policy {
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
     transition: 0.1s;
+    font-size: 18px;
   }
 
   .navbar-light .bg-green,
@@ -360,6 +363,7 @@ footer .left .policy {
   }
 
   .navbar .btn-sign-in {
+    margin-left: 127px;
     color: #0c145a;
     padding: 0.75rem 1.875rem;
     background: #f5dd00;

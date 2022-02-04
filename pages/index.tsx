@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
-                <li className="nav-item my-auto">
+                <li className="nav-item my-auto mx-2">
                   <a
                     className="nav-link active"
                     aria-current="page"
@@ -37,26 +37,26 @@ const Home: NextPage = () => {
                     Neon Browser
                   </a>
                 </li>
-                <li className="nav-item my-auto">
+                <li className="nav-item my-auto mx-2">
                   <a className="nav-link" href="#features">
                     Features
                   </a>
                 </li>
-                <li className="nav-item my-auto">
+                <li className="nav-item my-auto x-2">
                   <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </li>
 
-                <li className="nav-item my-auto me-127">
+                <li className="nav-item my-auto mx-2">
                   <a className="nav-link" href="#support">
                     Support
                   </a>
                 </li>
 
-                <li className="nav-item my-auto ">
+                <li className="nav-item my-auto">
                   <a
-                    className="btn btn-sign-in d-flex justify-content-center ms-lg-2"
+                    className="btn btn-sign-in d-flex justify-content-center"
                     href="#download"
                     role="button"
                   >
