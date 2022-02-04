@@ -76,9 +76,9 @@ const Home: NextPage = () => {
                 <p className="text-top text-white fw-medium">Hot Browser</p>
               </div>
               <h1 className="header-title fw-medium mt-32">
-                All in-one browser for your daily internet.
+                All <span>in-one</span> browser for your daily internet.
               </h1>
-              <p className="mt-40 mb-56 text-lg">
+              <p className="text-lg">
                 NEON is a web browser initially released for mobile devices on
                 Android platform.
               </p>
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-5 position-relative">
+            <div className="col-lg-5 col-12 position-relative d-flex justify-content-end">
               <img
                 src="/img/img-header-right.png"
                 className="img-fluid position-absolute img-header"
@@ -428,7 +428,7 @@ const Home: NextPage = () => {
             <div className="col-lg-6 col-12">
               <div className="position-relative">
                 <div
-                  className="accordion mt-100 position-absolute"
+                  className="accordion mt-100 position-absolute w-100"
                   id="accordionExample"
                 >
                   <div className="accordion-item">
@@ -618,7 +618,7 @@ const Home: NextPage = () => {
         <div className="container-xxl container-fluid">
           <div className="row">
             <div className="col-lg-12 col-12 py-40 d-flex justify-content-between">
-              <div className="left d-flex justify-content-start">
+              <div className="left d-flex justify-content-start align-items-center">
                 <span>
                   Copyright © 2022 NeonByte PVT. LTD. All Right Reserved.
                 </span>
@@ -630,7 +630,7 @@ const Home: NextPage = () => {
                   Privacy policy
                 </a>
               </div>
-              <div className="right d-flex justify-content-end">
+              <div className="right d-flex justify-content-end align-items-center">
                 <img
                   src="/icon/facebook.png"
                   width={24}
