@@ -1,5 +1,5 @@
-import type { NextPage } from "next";
-import Image from "next/image";
+import type { NextPage } from 'next';
+import Image from 'next/image';
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +9,7 @@ const Home: NextPage = () => {
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <Image
-                src="/img/logo.png"
+                src="/icon/neon-logo.png"
                 width={138}
                 height={40}
                 alt="NEON logo"
@@ -37,18 +37,18 @@ const Home: NextPage = () => {
                     Neon Browser
                   </a>
                 </li>
-                <li className="nav-item my-auto mx-2">
+                <li className="nav-item my-auto ml-40 ml-lg-60">
                   <a className="nav-link" href="#features">
                     Features
                   </a>
                 </li>
-                <li className="nav-item my-auto x-2">
+                <li className="nav-item my-auto ml-40 ml-lg-60">
                   <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </li>
 
-                <li className="nav-item my-auto mx-2">
+                <li className="nav-item my-auto ml-40 ml-lg-60">
                   <a className="nav-link" href="#support">
                     Support
                   </a>
@@ -94,13 +94,13 @@ const Home: NextPage = () => {
                     height={20}
                     alt="Download for Android"
                   />
-                  <span className="ms-3 ">Download for Android</span>
+                  <span className="ms-4">Download for Android</span>
                 </a>
               </div>
             </div>
             <div className="col-lg-5 col-12 position-relative d-flex justify-content-end">
               <img
-                src="/img/img-header-right.png"
+                src="/img/hero-image-mockup.png"
                 className="img-fluid position-absolute img-header"
                 alt=""
               />
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
                   <div className="about-us d-flex align-items-center">
                     <div className="about-left">
                       <Image
-                        src="/icon/about--us.png"
+                        src="/icon/about-us-img.png"
                         width={100}
                         height={120}
                       />
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
                         Learn More
                         <img
                           src="/icon/arraow-bottom.png"
-                          width={8}
+                          width={9}
                           height={8}
                           className="ms-3"
                         />
@@ -145,13 +145,13 @@ const Home: NextPage = () => {
                   <div className="features d-flex align-items-center">
                     <div className="features-left">
                       <Image
-                        src="/icon/features.png"
+                        src="/icon/features-img.png"
                         width={100}
                         height={120}
                       />
                     </div>
                     <div className="features-right">
-                      <span className="name fw-semibold">About Us</span>
+                      <span className="name fw-semibold">Features</span>
 
                       <p className="title fw-semibold">
                         Why Neon will improve <br /> your browsing experience
@@ -161,7 +161,7 @@ const Home: NextPage = () => {
                         Learn More
                         <img
                           src="/icon/arraow-bottom.png"
-                          width={8}
+                          width={9}
                           height={8}
                           className="ms-3"
                         />
@@ -181,7 +181,7 @@ const Home: NextPage = () => {
               <div className="profile-left">
                 <div className="name d-flex align-items-center">
                   <Image
-                    src="/icon/multiple-profile.png"
+                    src="/icon/multidownload-icon.png"
                     width={24}
                     height={24}
                   />
@@ -201,7 +201,7 @@ const Home: NextPage = () => {
             <div className="col-lg-6 col-12">
               <div className="ps-40">
                 <img
-                  src="/img/multiple-profile-right.png"
+                  src="/img/multiple-profile-img.png"
                   className="img-fluid"
                 />
               </div>
@@ -215,7 +215,7 @@ const Home: NextPage = () => {
             <div className="col-lg-10 col-12">
               <div className="built-top text-center">
                 <Image
-                  src="/icon/built-in.png"
+                  src="/icon/built-in-proxy-icon.png"
                   width={24}
                   height={24}
                   className="mb-16"
@@ -237,7 +237,7 @@ const Home: NextPage = () => {
             <div className="col-lg-12 col-12">
               <div className="built-bottom">
                 <img
-                  src="/img/built-in-banner.png"
+                  src="/img/built-in-proxy-img.png"
                   alt=""
                   className="img-fluid"
                 />
@@ -252,7 +252,7 @@ const Home: NextPage = () => {
             <div className="col-lg-6 col-12 ">
               <div className="profile-left">
                 <div className="name d-flex align-items-center">
-                  <Image src="/icon/adblock.png" width={24} height={24} />
+                  <img src="/icon/adblock.png" width={24} height={24} alt="" />
                   <span className="ms-3 fw-semibold">AdBlocker</span>
                 </div>
                 <div className="title fw-medium">
@@ -269,7 +269,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-lg-6 col-12">
               <div className="ps-40">
-                <img src="/img/adblock-right.png" className="img-fluid" />
+                <img src="/img/adblocker-img.png" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -280,13 +280,21 @@ const Home: NextPage = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="ps-40">
-                <img src="/img/multi-download-left.png" className="img-fluid" />
+                <img
+                  src="/img/multi-download-img.png"
+                  className="img-fluid"
+                  alt=""
+                />
               </div>
             </div>
             <div className="col-lg-6 col-12 ">
               <div className="profile-left">
                 <div className="name d-flex align-items-center">
-                  <Image src="/icon/adblock.png" width={24} height={24} />
+                  <Image
+                    src="/icon/multidownload-icon.png"
+                    width={24}
+                    height={24}
+                  />
                   <span className="ms-3 fw-semibold">
                     Multi Threaded Downloader
                   </span>
@@ -312,7 +320,7 @@ const Home: NextPage = () => {
             <div className="col-lg-10 col-12">
               <div className="other-top text-center">
                 <Image
-                  src="/icon/other-feature.png"
+                  src="/icon/other-features-icon.png"
                   width={24}
                   height={24}
                   className="mb-16"
@@ -323,12 +331,12 @@ const Home: NextPage = () => {
                 </h2>
               </div>
             </div>
-            <div className="col-lg-11 col-12">
+            <div className="col-lg-11 col-12 px-0">
               <div className="row other-bottom">
                 <div className="col-md-4">
                   <div className="d-flex justify-content-center">
                     <img
-                      src="/img/other-1.png"
+                      src="/img/features-1-img.png"
                       alt=""
                       width={248}
                       className="img-fluid"
@@ -345,7 +353,7 @@ const Home: NextPage = () => {
                 <div className="col-md-4">
                   <div className="d-flex justify-content-center">
                     <img
-                      src="/img/other-2.png"
+                      src="/img/features-2-img.png"
                       alt=""
                       width={248}
                       className="img-fluid"
@@ -364,7 +372,7 @@ const Home: NextPage = () => {
                 <div className="col-md-4">
                   <div className="d-flex justify-content-center">
                     <img
-                      src="/img/other-3.png"
+                      src="/img/features-3-img.png"
                       alt=""
                       width={248}
                       className="img-fluid"
@@ -390,7 +398,7 @@ const Home: NextPage = () => {
           <div className="row d-flex justify-content-center">
             <div className="col-lg-6 col-12 ">
               <div className="top">
-                <img src="/img/logo-circle.png" alt="" className="img-fluid" />
+                <img src="/img/logo-img.png" alt="" className="img-fluid" />
               </div>
               <div className="bottom d-flex">
                 <div className="align-items-center">
@@ -606,12 +614,30 @@ const Home: NextPage = () => {
       </section>
 
       <section className="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.690633198891!2d77.69052601430394!3d12.92759441934141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13dc0d341da3%3A0xabe96f9f87f54725!2sWeWork%20Embassy%20TechVillage!5e0!3m2!1sid!2sid!4v1643892986623!5m2!1sid!2sid"
-          loading="lazy"
-          height="317"
-          className="location"
-        ></iframe>
+        <div className="container-xxl container-fluid">
+          <div className="row">
+            <div className="col-md-1"></div>
+            <div className="col-md-4">
+              <div className="card-place position-absolute">
+                <img src="/icon/logo-color.png" alt="Neon Logo" />
+                <p>
+                  #01-110, WeWork, Block L, Embassy Tech <br /> Village, Outer
+                  Ring Road, Bellandur, Bangalore, <br /> KA - 560103, India.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <div className="row justify-content-between">
+            <div className="col-md-4 col-lg-6 col-sm-none">
+              <div className="sdw-left w-100"></div>
+            </div>
+            <div className="col-md-4 col-lg-6 col-sm-none">
+              <div className="sdw-right w-100"></div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer>

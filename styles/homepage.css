@@ -13,21 +13,20 @@
 .navbar-light .navbar-nav .nav-link {
   color: #ffffff;
   transition: 0.1s;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .navbar-light .bg-green,
 .navbar {
-  background-color: #04bf83;
+  background-color: #631aff;
 }
 
 .navbar .btn-sign-in {
-  color: #0c145a;
-  padding: 0.75rem 1.875rem;
-  background: #f5dd00;
+  color: #ffffff;
+  padding: 0.6rem 1.7rem;
+  background: #8e59ff;
   border-radius: 28px;
   letter-spacing: 0.025em;
-  color: #143027;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
@@ -38,12 +37,12 @@
 
 /* Header */
 .header {
-  background-color: #04bf83;
+  background-color: #631aff;
   margin-top: -1px;
 }
 
 .header .img-header {
-  top: -227px;
+  top: -210px;
   width: 425px;
 }
 
@@ -56,7 +55,7 @@
 }
 
 .header .header-title span {
-  background: url("/icon/line.png");
+  background: url('/icon/line-purple.png');
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -64,19 +63,19 @@
 .header .text-top {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #00a671;
+  padding-left: 6px;
+  padding-right: 6px;
+  background: #5113d3;
   border-radius: 35px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .header p.text-lg {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.025em;
-  color: #9af2d6;
+  color: #cebef1;
   margin-top: 32px;
   margin-bottom: 38px;
 }
@@ -94,7 +93,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #143027;
+  color: #1b1345;
 }
 
 /*  */
@@ -108,7 +107,7 @@
 .features .features-right .name {
   font-size: 12px;
   line-height: 18px;
-  color: #8b9894;
+  color: #a8a5b8;
 }
 
 .about-us .about-right .title,
@@ -118,14 +117,14 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  color: #143027;
+  color: #1b1345;
 }
 
 .about-us .about-right .learn-more,
 .features .features-right .learn-more {
   font-size: 12px;
   line-height: 18px;
-  color: #04bf83;
+  color: #631aff;
   text-decoration: none;
 }
 
@@ -135,7 +134,7 @@
 .multi-download .profile-left .name span {
   font-size: 18px;
   line-height: 26px;
-  color: #04bf83;
+  color: #631afd;
 }
 
 .multiple-profile .profile-left .title,
@@ -143,7 +142,7 @@
 .multi-download .profile-left .title {
   font-size: 30px;
   line-height: 42px;
-  color: #143027;
+  color: #1b1345;
   padding-top: 20px;
   padding-bottom: 28px;
 }
@@ -153,7 +152,7 @@
 .multi-download .profile-left .description {
   font-size: 15px;
   line-height: 28px;
-  color: #8b9894;
+  color: #a8a5b8;
 }
 
 /* Bult In */
@@ -163,7 +162,7 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: semibold;
-  color: #8b9894;
+  color: #631afd;
   margin-bottom: 0;
 }
 
@@ -173,7 +172,7 @@
   font-size: 30px;
   line-height: 42px;
   text-align: center;
-  color: #143027;
+  color: #1b1345;
   margin-bottom: 0;
 }
 
@@ -182,7 +181,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  color: #8b9894;
+  color: #a8a5b8;
   margin-bottom: 0;
 }
 
@@ -194,7 +193,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
-  color: #143027;
+  color: #1b1345;
   margin-top: 24px;
   margin-bottom: 17px;
 }
@@ -203,7 +202,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: #8b9894;
+  color: #a8a5b8;
 }
 
 /* FAQ */
@@ -212,7 +211,7 @@
 }
 
 .faq .bottom .btn-download {
-  background: #04bf83;
+  background: #631afd;
   border-radius: 32px;
   padding-left: 23px;
   padding-right: 23px;
@@ -221,7 +220,7 @@
 }
 
 .faq .bottom .btn-ios {
-  background-color: #ebf3f1;
+  background: #e7e2f8;
   border-radius: 32px;
   padding-left: 23px;
   padding-right: 23px;
@@ -231,16 +230,16 @@
 
 .faq .bottom a.btn-download {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #ffffff;
 }
 
 .faq .bottom a.btn-ios {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
-  color: #143027;
+  color: #1b1345;
   margin-left: 14px;
 }
 
@@ -270,7 +269,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: #143027;
+  color: #1b1345;
 }
 
 .faq .accordion-button:focus {
@@ -284,16 +283,58 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
-  color: #8b9894;
+  color: #a8a5b8;
 }
 
 /* Maps */
 
-.map .location {
+.map {
   width: 100%;
   height: 317px;
-  border: 0;
+  background-image: url('../public/img/maps.png');
   overflow: hidden;
+}
+
+.map .card-place {
+  margin-top: 50px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.map .card-place p {
+  margin-top: 28px;
+  margin-bottom: 0 !important;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #a8a5b8;
+}
+
+.map .sdw-left {
+  height: 317px;
+  background: linear-gradient(
+    89.76deg,
+    #ffffff -11.25%,
+    rgba(255, 255, 255, 0) 107.98%
+  );
+}
+
+.map .sdw-right {
+  height: 317px;
+  background: linear-gradient(
+    89.76deg,
+    #ffffff -11.25%,
+    rgba(255, 255, 255, 0) 107.98%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.place-card.place-card-large {
+  display: none !important;
 }
 
 /* Footer */
@@ -301,7 +342,7 @@ footer .left span {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  color: #143027;
+  color: #1b1345;
 }
 
 footer .left .dot {
@@ -318,7 +359,7 @@ footer .left .policy {
   font-size: 14px;
   line-height: 21px;
   text-decoration-line: underline;
-  color: #04bf83;
+  color: #631afd;
 }
 
 footer .left .policy {
@@ -356,16 +397,16 @@ footer .left .policy {
   .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
     transition: 0.1s;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .navbar-light .bg-green,
   .navbar {
-    background-color: #04bf83;
+    background-color: #631aff;
   }
 
   .navbar .btn-sign-in {
-    margin-left: 127px;
+    margin-left: 153px;
     color: #0c145a;
     padding: 0.75rem 1.875rem;
     background: #f5dd00;
@@ -381,7 +422,7 @@ footer .left .policy {
 
   /* Header */
   .header {
-    background-color: #04bf83;
+    background-color: #631aff;
     margin-top: -1px;
   }
 
@@ -390,11 +431,13 @@ footer .left .policy {
   }
 
   .header .img-header {
-    top: -258px;
+    width: 560px;
+    height: 870px;
+    top: -300px;
   }
 
   .header .header-title {
-    font-size: 61px;
+    font-size: 64px;
     line-height: 84px;
     color: #ffffff;
     letter-spacing: 0.025em;
@@ -406,7 +449,7 @@ footer .left .policy {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #00a671;
+    background-color: #5113d3;
     border-radius: 35px;
     font-size: 18px;
   }
@@ -417,23 +460,35 @@ footer .left .policy {
     line-height: 24px;
     /* identical to box height */
     letter-spacing: 0.025em;
-    color: #9af2d6;
+    color: #cebef1;
+  }
+
+  .header p.text-lg {
+    margin-top: 40px;
+    margin-bottom: 56px;
   }
 
   .header .btn-download {
     background: #ffffff;
     border-radius: 32px;
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: 38px;
+    padding-right: 38px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .header .btn-download span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1b1345;
   }
 
   .header a.btn-download {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #143027;
+    color: #1b1345;
   }
 
   .header .btn-learn:hover {
@@ -481,9 +536,10 @@ footer .left .policy {
 
   .about-us .about-right .name,
   .features .features-right .name {
+    font-weight: 600;
     font-size: 12px;
     line-height: 18px;
-    color: #8b9894;
+    color: #a8a5b8;
   }
 
   .about-us .about-right .title,
@@ -493,14 +549,14 @@ footer .left .policy {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #143027;
+    color: #1b1345;
   }
 
   .about-us .about-right .learn-more,
   .features .features-right .learn-more {
     font-size: 12px;
     line-height: 18px;
-    color: #04bf83;
+    color: #631aff;
     text-decoration: none;
   }
 
@@ -508,17 +564,20 @@ footer .left .policy {
   .multiple-profile .profile-left .name span,
   .ad-block .profile-left .name span,
   .multi-download .profile-left .name span {
+    font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-    color: #04bf83;
+    color: #631aff;
   }
 
   .multiple-profile .profile-left .title,
   .ad-block .profile-left .title,
   .multi-download .profile-left .title {
+    font-weight: 500;
     font-size: 32px;
     line-height: 48px;
-    color: #143027;
+
+    color: #1b1345;
     padding-top: 23px;
     padding-bottom: 32px;
   }
@@ -526,19 +585,21 @@ footer .left .policy {
   .multiple-profile .profile-left .description,
   .ad-block .profile-left .description,
   .multi-download .profile-left .description {
+    font-weight: 500;
     font-size: 16px;
     line-height: 32px;
-    color: #8b9894;
+
+    color: #a8a5b8;
   }
 
   /* Bult In */
 
   .built-in .built-top .name,
   .other-feature .other-top .name {
+    font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-    font-weight: semibold;
-    color: #8b9894;
+    color: #1b1345;
     margin-bottom: 0;
   }
 
@@ -548,7 +609,7 @@ footer .left .policy {
     font-size: 32px;
     line-height: 48px;
     text-align: center;
-    color: #143027;
+    color: #1b1345;
     margin-bottom: 0;
   }
 
@@ -557,7 +618,8 @@ footer .left .policy {
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
-    color: #8b9894;
+    text-align: center;
+    color: #a8a5b8;
     margin-bottom: 0;
   }
 
@@ -567,9 +629,10 @@ footer .left .policy {
 
   .other-bottom h3 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 27px;
-    color: #143027;
+
+    color: #1b1345;
     margin-top: 24px;
     margin-bottom: 17px;
   }
@@ -578,7 +641,7 @@ footer .left .policy {
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
-    color: #8b9894;
+    color: #a8a5b8;
   }
 
   /* FAQ */
@@ -587,7 +650,7 @@ footer .left .policy {
   }
 
   .faq .bottom .btn-download {
-    background: #04bf83;
+    background: #631afd;
     border-radius: 32px;
     padding-left: 27px;
     padding-right: 27px;
@@ -596,7 +659,7 @@ footer .left .policy {
   }
 
   .faq .bottom .btn-ios {
-    background-color: #ebf3f1;
+    background-color: #e7e2f8;
     border-radius: 32px;
     padding-left: 27px;
     padding-right: 27px;
@@ -615,7 +678,7 @@ footer .left .policy {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #143027;
+    color: #1b1345;
     margin-left: 14px;
   }
 
@@ -645,7 +708,7 @@ footer .left .policy {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #143027;
+    color: #1b1345;
   }
 
   .faq .accordion-button:focus {
@@ -659,11 +722,11 @@ footer .left .policy {
     font-weight: 500;
     font-size: 14px;
     line-height: 28px;
-    color: #8b9894;
+    /* or 200% */
+    color: #a8a5b8;
   }
 
   /* Maps */
-
   .map .location {
     width: 100%;
     height: 317px;
@@ -671,12 +734,16 @@ footer .left .policy {
     overflow: hidden;
   }
 
+  .map .card-place p {
+    font-size: 14px;
+  }
+
   /* Footer */
   footer .left span {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #143027;
+    color: #1b1345;
   }
 
   footer .left .dot {
@@ -693,7 +760,7 @@ footer .left .policy {
     font-size: 14px;
     line-height: 21px;
     text-decoration-line: underline;
-    color: #04bf83;
+    color: #631afd;
   }
 
   footer .left .policy {
